@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAD FILES TRADER</title>
+  <meta name="description"
+    content="Buy and sell high-quality CAD files for jewelry and design. View previews, BUY NOW!, and get instant access to CAD files.">
+  <meta name="keywords" content="CAD files, buy CAD files, sell CAD files, jewelry CAD, CAD trading, 3D design files">
+  <meta name="author" content="CAD Files Trader">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav-title">CAD FILES TRADER</div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bracelet.html">Bracelets</a></li>
+        <li><a href="rings.html">Rings</a></li>
+        <li><a href="necklace.html">Necklace</a></li>
+        <li><a href="murti.html">Murti</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Image Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-img" id="lightbox-img">
+  </div>
+  <main>
+    <section class="product">
+      <img src="assets/600-PCJD.png" alt="600-PCJD" onclick="openLightbox(this)">
+      <div class="buttons">
+        <button
+          onclick="viewPDF('https://drive.google.com/file/d/1gp1iXi_0HqAKsau0JZaUXPBhePoDl89M/viewp=sharing')">View
+          PDF</button>
+        <button onclick="openWhatsApp('*600-PCJD*')" class="whatsapp-button">
+          <i class="fab fa-whatsapp"></i> BUY NOW!
+        </button>
+      </div>
+    </section>
+    <section class="product">
+      <img src="assets/600-PCJD.png" alt="600-PCJD" onclick="openLightbox(this)">
+      <div class="buttons">
+        <button
+          onclick="viewPDF('https://drive.google.com/file/d/1gp1iXi_0HqAKsau0JZaUXPBhePoDl89M/viewp=sharing')">View
+          PDF</button>
+        <button onclick="openWhatsApp('*600-PCJD*')" class="whatsapp-button">
+          <i class="fab fa-whatsapp"></i> BUY NOW!
+        </button>
+      </div>
+    </section>
+    <section class="product">
+      <img src="assets/600-PCJD.png" alt="600-PCJD" onclick="openLightbox(this)">
+      <div class="buttons">
+        <button
+          onclick="viewPDF('https://drive.google.com/file/d/1gp1iXi_0HqAKsau0JZaUXPBhePoDl89M/viewp=sharing')">View
+          PDF</button>
+        <button onclick="openWhatsApp('*600-PCJD*')" class="whatsapp-button">
+          <i class="fab fa-whatsapp"></i> BUY NOW!
+        </button>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
